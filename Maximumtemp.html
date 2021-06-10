@@ -91,12 +91,13 @@
       <div class='row'>
         <div class='col-md-7'>
           <section id="main-landing">
-            <h1>Humidity</h1>
+            <h1>Max Temperature</h1>
             <section id="figure">
-              <img class="img-fluid" id="plots-image" src="Resources/assets/images/Fig2.png" alt="landing page image">
+              <img class="img-fluid" id="plots-image" src="Resources/assets/images/Fig1.png" alt="landing page image">
             </section>
             <hr>
-            <p>This plot, City Latitude vs. Humidity, shows the percentage of humidity of randomly generated cities in relation to their latitude. This plot shows that humidity is spread out between the hemispheres, however, there is more humidity close to the equator(0) and in the northern hemisphere.</p>
+          <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of year this data was gathered.</p>
+          <p>This plot, City Latitude vs. Max Temperature, shows the maximum temperature of randomly generated cities in relation to their latitude or their distance away from the equator(0). This plot shows that there is a strong correlation between temperature and latitude for both northern and southern hemispheres. There is a higher average max temperature in the southern latitude with the highest max temperatures near the equator and the lowest max temperatures in the northern hemisphere.</p>
           </section>
         </div>
 
@@ -106,10 +107,10 @@
           <div class ='container'>
             <div class='row'>
               <div class='col-6'>
-                <a href='maxtemp.html'><img class="img-fluid" id="image" src="Resources/assets/images/Fig1.png" alt="sidebar image 1"></a>
+                <a class='active' href='maxtemp.html'><img class="img-fluid" id="image" src="Resources/assets/images/Fig1.png" alt="sidebar image 1"></a>
               </div>
               <div class='col-6'>
-                <a class='active' href='humidity.html'><img class="img-fluid" id="image" src="Resources/assets/images/Fig2.png" alt="sidebar image 2"></a>
+                <a href='humidity.html'><img class="img-fluid" id="image" src="Resources/assets/images/Fig2.png" alt="sidebar image 2"></a>
               </div>
             </div>
   
@@ -163,6 +164,5 @@
           </div>
         </div>
       </div>
-
   </body>
 </html>
